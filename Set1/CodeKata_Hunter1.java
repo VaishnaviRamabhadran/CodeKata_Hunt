@@ -27,7 +27,7 @@ else
 for(Map.Entry entry: op.entrySet())
 {
 if((int)entry.getValue()>1)
-System.out.print(entry.getKey());
+System.out.print(entry.getKey()+" ");
 }
 }
 }
