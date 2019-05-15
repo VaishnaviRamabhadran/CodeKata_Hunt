@@ -7,7 +7,6 @@ Scanner sc=new Scanner(System.in);
 int i,n,sum=0;
 n=sc.nextInt();
 ArrayList<Integer> arr=new ArrayList();
-HashMap<Integer,Integer> op=new HashMap();
 for(i=0;i<n;i++)
 {
 arr.add(sc.nextInt());
