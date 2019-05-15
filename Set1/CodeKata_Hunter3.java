@@ -13,7 +13,16 @@ num=sc.nextInt();
 if(i==num)
 ts.add(num);
 }
-for(Integer value:ts)
-System.out.print(value+" ");
+if(!ts.isEmpty())
+{
+	for(Integer value:ts)
+	{
+	System.out.print(value+" ");
+	}
+}
+else
+{
+	System.out.print("-1");
+}
 }
 }
